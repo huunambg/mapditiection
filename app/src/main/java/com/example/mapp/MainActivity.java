@@ -21,7 +21,7 @@ import com.example.mapp.Modules.DirectionFinderListener;
 import com.example.mapp.Modules.Route;
 import com.example.mapp.R;
 import com.google.android.gms.maps.CameraUpdateFactory;
-import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.GoogleMap; // add cac library 
 import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
@@ -40,7 +40,7 @@ import java.util.List;
 
 public class MainActivity extends FragmentActivity implements OnMapReadyCallback, DirectionFinderListener {
 
-    private GoogleMap mMap;
+    private GoogleMap mMap; // tao 1 bien gmap
     private Button btnFindPath;
     private EditText etOrigin;
     private EditText etDestination;
